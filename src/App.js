@@ -17,7 +17,7 @@ function App() {
         >
           Learn React
         </a>
-        <h1>Hello! I am Mahfuz-Antor. Creating my own branch mahfuz-antor.</h1>
+        <h1>This is new pull request from me.</h1>
       </header>
     </div>
   );
