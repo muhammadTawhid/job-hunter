@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <img style={{width:'100%',height:'500px'}} src={header} alt="" />
+            <img style={{width:'100%', height:'500px'}} src={header} alt="" />
         </div>
     );
 };
