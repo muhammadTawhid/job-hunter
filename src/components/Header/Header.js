@@ -1,12 +1,14 @@
 import React from 'react';
 import Navbar from './Navbar';
-import header from '../../Images/header.jpg';
+import header from '../../Images/header3.svg';
 
 const Header = () => {
+
+
     return (
         <div>
             <Navbar></Navbar>
-            <img style={{width:'100%', height:'500px'}} src={header} alt="" />
+            <img className="w-100 mb-3" src={header} alt="" />
         </div>
     );
 };
