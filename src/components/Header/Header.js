@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import header from '../../Images/header3.svg';
+import header from '../../Images/header3.jpg';
 
 const Header = () => {
 
