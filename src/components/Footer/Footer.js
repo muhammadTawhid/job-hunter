@@ -1,5 +1,7 @@
 import React from "react";
 import event from "../../Images/header.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faHome, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -30,15 +32,15 @@ const Footer = () => {
         </div>
         <div className="col-md-4">
           <h2>OUR ADDRESS</h2>
-          <h6>OUR OFFICE LOCATION:</h6>
+          <h6><FontAwesomeIcon className=" mt-3" icon={faHome} size="lg" /> OUR OFFICE LOCATION:</h6>
           <p style={{ borderBottom: "1px solid white", paddingBottom: "15px" }}>
             #23, Uttara, Dahaka-1200
           </p>
-          <h6>OUR PHONE:</h6>
+          <h6><FontAwesomeIcon className=" mt-3" icon={faPhone} size="lg" /> OUR PHONE:</h6>
           <p style={{ borderBottom: "1px solid white", paddingBottom: "15px" }}>
             012345567890
           </p>
-          <h6>OUR EMAIL:</h6>
+          <h6><FontAwesomeIcon className=" mt-3" icon={faEnvelope} size="lg" />  OUR EMAIL:</h6>
           <p>antorcnj2014@gmail.com</p>
         </div>
         <div className="col-md-4">
@@ -75,8 +77,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" text-center text-white  ">
-        <p className="">
+      <div style={{ borderTop: '1px solid white'}} className=" text-center text-white  ">
+        <p className="p-3">
           Copyright © {new Date().getFullYear()} | <b>Donation</b>
         </p>
       </div>

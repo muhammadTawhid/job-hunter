@@ -13,7 +13,7 @@ const Donation = () => {
       raised: "11,366",
       target: "15,000",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been they",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been Lorem Ipsum has been",
     },
     {
       title: "Donate for Children",
@@ -22,7 +22,7 @@ const Donation = () => {
       raised: "9,564",
       target: "12,000",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
     },
     {
       title: "Donate for Homeless",

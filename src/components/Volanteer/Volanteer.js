@@ -1,10 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faTwitter,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+
 import volunteer1 from "../../Images/volanteer1.jpg";
 import volunteer2 from "../../Images/volanteer2.jpg";
 import volunteer3 from "../../Images/volanteer3.jpg";
