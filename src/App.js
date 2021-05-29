@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header/Header';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -14,7 +13,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
+          <Home></Home>
+        </Route>
+        <Route path="/home">
           <Home></Home>
         </Route>
       </Switch>
