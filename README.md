@@ -1,4 +1,4 @@
-# Getting Started with Donation site
+# Getting Started with JOb-Hunter
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
