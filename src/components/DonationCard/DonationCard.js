@@ -4,7 +4,7 @@ const DonationCard = (props) => {
   const { title, img, place, raised, target, description } = props.donate;
 
   return (
-    <div className="col-md-3 d-flex justify-content-center my-3">
+    <div className="col-md-4 d-flex justify-content-center my-3">
       <div className=" shadow-lg">
         <div className=" info-container service-red">
           <div className="text-center bg-white">
@@ -15,14 +15,9 @@ const DonationCard = (props) => {
             <h5 className="text-secondary">
               <b>{place}</b>
             </h5>
-            <h4 className="d-flex ml-3 ">
-              <h5>Raised: $</h5>
-              {raised}
-            </h4>
-            <h4 className="d-flex ml-3">
-              <h5>Target: $</h5>
-              {target}
-            </h4>
+            <h5 className="justify-content-center"> <strong>RAISED: ${raised}</strong></h5>
+    
+              <h5 className="justify-content-center"><strong>TARGET: ${target}</strong> </h5>
             <p className="text-center ">{description}</p>
             <button
               style={{ borderRadius: "15px" }}

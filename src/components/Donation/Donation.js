@@ -12,8 +12,7 @@ const Donation = () => {
       place: "Africa",
       raised: "11,366",
       target: "15,000",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been Lorem Ipsum has been",
+      description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been ",
     },
     {
       title: "Donate for Children",
@@ -42,7 +41,7 @@ const Donation = () => {
           <b>REASON FOR DONATION</b>
         </h3>
       </div>
-      <div className="row justify-content-center ">
+      <div className="row justify-content-center p-5">
         {donateServices.map((donate) => (
           <DonationCard donate={donate}></DonationCard>
         ))}
