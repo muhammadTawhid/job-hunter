@@ -1,5 +1,5 @@
-import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -50,9 +50,9 @@ const Navbar = () => {
               <Link
                 className="nav-link me-5 text-white"
                 aria-current="page"
-                to="/viewOrder/:id"
+                to="/"
               >
-                Events
+                Volunteer
               </Link>
             </li>
             {/* <li className="nav-item">
@@ -64,16 +64,16 @@ const Navbar = () => {
                 aria-current="page"
                 to="/"
               >
-                Volanteers
+                Contuct
               </Link>
             </li>
             <li className="nav-item mr-5">
               <Link
                 className="nav-link me-5 text-white"
                 aria-current="page"
-                to="/"
+                to="/login"
               >
-                Contact
+                Login
               </Link>
             </li>
           </ul>
