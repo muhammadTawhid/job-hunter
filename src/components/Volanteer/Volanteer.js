@@ -33,7 +33,7 @@ const Volunteer = () => {
           <b>OUR VOLUNTEERS</b>
         </h3>
       </div>
-      <div className="row justify-content-center ">
+      <div style={{marginRight:"0px", }} className="row justify-content-center ">
         {VolunteerData.map((volanteer) => (
           <VolanteerCard volanteer={volanteer} />
         ))}
