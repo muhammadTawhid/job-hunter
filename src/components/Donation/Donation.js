@@ -42,7 +42,7 @@ const Donation = () => {
           <b>REASON FOR DONATION</b>
         </h3>
       </div>
-      <div className="row justify-content-center ">
+      <div className="row justify-content-center p-5">
         {donateServices.map((donate) => (
           <DonationCard donate={donate}></DonationCard>
         ))}
