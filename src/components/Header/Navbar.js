@@ -41,7 +41,7 @@ const Navbar = () => {
               <Link
                 className="nav-link me-5 text-white"
                 aria-current="page"
-                to="/donate"
+                to="/"
               >
                 Donate
               </Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
                 aria-current="page"
                 to="/"
               >
-                Contuct
+                Contact
               </Link>
             </li>
             <li className="nav-item mr-5">
