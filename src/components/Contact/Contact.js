@@ -6,7 +6,9 @@ const Contact = () => {
         <div className="container">
             <div className="section-header text-center text-white mb-5">
                  <h4 className="text-secondary">Planing for a Donation?</h4>
-                 <h1>Contact With Us</h1>
+                 <h3 style={{ textDecoration: "underline" }} className="text-white mt-5">
+                    <b>CONTACT WITH US</b>
+                 </h3>
             </div>
             <div className="col-md-9 mx-auto">
                 <form action="">
