@@ -27,7 +27,7 @@ const Footer = () => {
             iste nulla. Ex, quos? <br />
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ullam
             unde corrupti ducimus magnam, at inventore in exercitationem
-            molestias molestiae eaque aspernatur vitae, qua{" "}
+            molestias molestiae eaque aspernatur suorer, qua{" "}
           </p>
         </div>
         <div className="col-md-4">
