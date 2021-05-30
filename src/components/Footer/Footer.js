@@ -77,7 +77,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div style={{ borderTop: '1px solid white'}} className=" text-center text-white  ">
+      <div className=" text-center text-white  ">
         <p className="p-3">
           Copyright © {new Date().getFullYear()} | <b>Donation</b>
         </p>

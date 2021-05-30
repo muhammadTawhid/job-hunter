@@ -12,8 +12,7 @@ const Donation = () => {
       place: "Africa",
       raised: "11,366",
       target: "15,000",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been Lorem Ipsum has been",
+      description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been ",
     },
     {
       title: "Donate for Children",

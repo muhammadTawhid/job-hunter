@@ -18,7 +18,6 @@ const DonationCard = (props) => {
             <h5 className="justify-content-center"> <strong>RAISED: ${raised}</strong></h5>
     
               <h5 className="justify-content-center"><strong>TARGET: ${target}</strong> </h5>
-          
             <p className="text-center ">{description}</p>
             <button
               style={{ borderRadius: "15px" }}
